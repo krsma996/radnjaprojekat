@@ -1,0 +1,39 @@
+/* Stilovi za veće ekrane (desktop) */
+.sledeci-icon {
+  background-color: black;
+  display: block;
+  text-indent: -999em;
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: 250px;
+  z-index: 150;
+  cursor: pointer;
+}
+
+.prethodni-icon {
+  background-color: #000;
+  display: block;
+  text-indent: -999em;
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  margin-right: 250px;
+  z-index: 150;
+  cursor: pointer;
+}
+
+/* Responsivni stilovi za manje ekrane (mobilni uređaji) */
+@media (max-width: 768px) {
+  .sledeci-icon {
+    margin-left: 100px; /* Manji razmak za mobilne */
+  }
+
+  .prethodni-icon {
+    margin-right: 100px; /* Manji razmak za mobilne */
+  }
+}

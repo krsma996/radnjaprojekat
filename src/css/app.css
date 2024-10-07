@@ -1,0 +1,238 @@
+body {
+  background-color: #e4f1fe;
+}
+.active-dugme {
+  color: white;
+  background-color: #007bff;
+}
+
+.header-navbar-bg-color {
+  background-color: #34495e;
+  min-height: 45px;
+  text-align: left;
+  color: 007bff;
+  padding: 0;
+}
+.navbar-brand img {
+  height: 30px;
+}
+.nav-item button {
+  background: none;
+  border: none;
+  color: white;
+  padding: 0;
+  font-family: inherit;
+}
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.navbar-toggler-icon {
+  background-color: none; /* Ako koristiš toggler ikonicu, možeš i njoj da dodaš belu boju */
+}
+.header-navbar-bg-color .nav-link:hover,
+.header-navbar-bg-color .dropdown-item:hover {
+  color: lightgray !important; /* Opcionalno: svetlija boja kad je link hoverovan */
+}
+.logo-text-img {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: Oswald;
+}
+.navbar-font-custom {
+  text-decoration: none;
+  color: antiquewhite;
+  font-family: Oswald;
+}
+.custom-carousel {
+  width: 95%; /* Ili neka druga vrednost po izboru */
+  margin: auto; /* Centriranje carousel-a */
+  overflow: hidden;
+}
+
+.custom-carousel .carousel-inner img {
+  max-height: 400px;
+  margin-top: 1.2em;
+  object-fit: cover;
+  border: 4.4px solid #494949;
+  background-color: #494949;
+  position: relative;
+}
+/* Stilovi za veće ekrane (desktop) */
+.carousel-control-next-icon {
+  background-color: #000;
+  color: white;
+  display: block;
+  text-indent: -999em;
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: 168px;
+  z-index: 150;
+  cursor: pointer;
+}
+
+.carousel-control-prev-icon {
+  background-color: #000;
+  display: block;
+  text-indent: -999em;
+  width: 35px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  margin-right: 168px;
+  z-index: 150;
+  cursor: pointer;
+}
+
+/* Responsivni stilovi za manje ekrane (mobilni uređaji) */
+@media (max-width: 768px) {
+  .carousel-control-next-icon {
+    margin-left: 100px; /* Manji razmak za mobilne */
+  }
+
+  .carousel-control-prev-icon {
+    margin-right: 100px; /* Manji razmak za mobilne */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 50px; /* Manje dimenzije dugmadi */
+    height: 50px;
+    top: 40%; /* Lagano pomeranje na niži položaj */
+    margin-top: -20px;
+    margin-left: 20px; /* Veći razmak za manje ekrane */
+    margin-right: 20px;
+  }
+}
+
+.carousel-controls {
+  position: absolute; /* ili absolute u zavisnosti od tvog dizajna */
+  top: -500px; /* prilagodi u zavisnosti od tvog dizajna */
+  display: flex;
+  justify-content: space-between; /* razmakni dugmad */
+}
+
+.h1-carousel {
+  margin-top: 1em;
+  padding: 0;
+  font-weight: 600 !important;
+  color: #292929 !important;
+  font-size: 25px !important;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.p-carousel {
+  line-height: 23px;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+.grid-content-single-image-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  background: 0 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  unicode-bidi: isolate;
+}
+
+.grid-content-font-style {
+  color: #666666;
+  font-size: 14px;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.arrow-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: black; /* Primarna boja */
+  transition: color 0.3s ease;
+  margin-left: 10px;
+}
+
+.arrow-link:hover {
+  color: #0056b3; /* Tamnija nijansa na hover */
+}
+
+.arrow-link i {
+  margin-right: 8px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.arrow-link:hover i {
+  transform: translateX(5px); /* Animacija pomeranja strelice */
+}
+
+.footer {
+  background-color: #34495e;
+  display: block;
+  box-sizing: border-box;
+  color: white;
+  font-size: 14px;
+  line-height: 23px;
+  padding-top: 40px;
+  padding-top: 0;
+  unicode-range: isolate;
+}
+.footer-top {
+  padding: 48px 0 30px;
+}
+.row-footer {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.banner-footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+.footer-category-links {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: white; /* Primarna boja */
+  transition: color 0.3s ease;
+}
+.footer-category-space {
+  margin-left: 3px;
+}
+.foopter-paragraf {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0;
+}
