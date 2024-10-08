@@ -6,7 +6,7 @@ export const Footer: React.FC<{}> = () => {
         <div className="container">
           <div className="row row-footer">
             <div className="col-lg-4 col-md-3 col-sm-6">
-              <h3>O NAMA</h3>
+              <h3>VAŽNO</h3>
               <p className="mt-4">
                 Naša firma specijalizovana je za obradu svih <br />
                 vrsta mermera i granita.

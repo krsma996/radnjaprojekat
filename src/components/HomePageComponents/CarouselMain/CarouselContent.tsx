@@ -1,7 +1,7 @@
 export const CarouselContent: React.FC = () => {
   return (
     <div>
-      <h1 className="h1-carousel mt-5">
+      <h1 className="mt-5">
         Izrada spomenika svih vrsta od mermera, granita i kvarca. Stvorite
         trajni znak sećanja koji će odražavati vašu ljubav i poštovanje
       </h1>
