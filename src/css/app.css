@@ -247,3 +247,14 @@ h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+
+.spomenici-box {
+  margin-left: 6%;
+}
+.spomenici {
+  position: relative;
+  display: inline;
+  float: left;
+  margin: 3px;
+  padding-bottom: 10px;
+}
