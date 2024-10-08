@@ -25,8 +25,7 @@ export const Footer: React.FC<{}> = () => {
               <ul className="list-unstyled mt-3">
                 <li>
                   <a href="/" className="footer-category-links">
-                    <i className="bi bi-arrow-right me-2" />
-                    Održavanje grobnih mesta
+                    <i className="bi bi-arrow-right me-2" />O Nama
                   </a>
                 </li>
                 <li>
