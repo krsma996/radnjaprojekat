@@ -6,7 +6,7 @@ export const NavItems: React.FC<{
 }> = ({ currentActive, setActiveLink }) => {
   const navLinks = [
     { name: "Početna", path: "/" },
-    { name: "O nama", path: "/Onama" },
+    { name: "O Nama", path: "/Onama" },
     { name: "Spomenici", path: "/Spomenici" },
     { name: "Ostalo", path: "/Ostalo" },
     { name: "Cene", path: "/Cene" },
@@ -23,7 +23,8 @@ export const NavItems: React.FC<{
               to={link.path}
               className={`nav-link btn ${
                 currentActive === link.name ? "active-dugme" : ""
-              }`}>
+              }`}
+            >
               {link.name}
             </Link>
           </button>
