@@ -1,5 +1,11 @@
-import { Odrzavanje } from "./Odrzavanje-components/Odrzavanje";
+import { Onama } from "./Onama/Onama";
+import { Spomenici } from "./Spomenici/Spomenici";
 
 export const CustomComponents: React.FC = () => {
-  return <Odrzavanje />;
+  return (
+    <>
+      <Onama />
+      <Spomenici />
+    </>
+  );
 };
