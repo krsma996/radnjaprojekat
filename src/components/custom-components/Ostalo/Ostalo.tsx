@@ -20,7 +20,7 @@ const photosOstalo = [
     src: kandiloSlika,
     height: 800,
     width: 600,
-    description: "OPIS ZA KANDILO",
+    description: "KANDILO",
   },
   { src: klupaSlika, height: 800, width: 600, description: "KLUPA" },
   {

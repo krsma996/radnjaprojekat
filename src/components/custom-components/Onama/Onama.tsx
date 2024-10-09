@@ -1,6 +1,6 @@
 import onama1slika from "../../../slike/onamaSpomenik1.jpg";
 import onama2slika from "../../../slike/onamaSpomenik2.jpg";
-import onama3slika from "../../../slike/onamaSpomenik3.jpg";
+import onama3slika from "../../../slike/mozda1.jpg";
 
 export const Onama: React.FC = () => {
   return (

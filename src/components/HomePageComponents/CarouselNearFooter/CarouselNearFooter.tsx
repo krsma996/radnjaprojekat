@@ -15,22 +15,22 @@ export const CarouselNearFooter: React.FC = () => {
     {
       src: slika1,
       alt: "monument 1",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
     {
       src: slika2,
       alt: "monument 2",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
     {
       src: slika3,
       alt: "monument 3",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
     {
       src: slika4,
       alt: "monument 4",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
   ];
 
@@ -38,22 +38,22 @@ export const CarouselNearFooter: React.FC = () => {
     {
       src: slika5,
       alt: "monument 5",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
     {
       src: slika6,
       alt: "monument 6",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
     {
       src: slika7,
       alt: "monument 7",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
     {
       src: slika8,
       alt: "monument 8",
-      style: { width: "270px", height: "310px" },
+      style: { width: "650px", height: "450px" },
     },
   ];
 

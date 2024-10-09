@@ -17,8 +17,8 @@ export const CarouselSlide: React.FC<CarouselSlideProps> = ({
       data-bs-interval={interval}
     >
       <img
-        height="732"
-        width="301"
+        height="1000"
+        width="501"
         src={src}
         className="d-block w-100"
         alt={alt}

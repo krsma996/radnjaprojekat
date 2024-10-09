@@ -1,6 +1,6 @@
 import "../../../css/app.css";
-import carousel1 from "../../../slike/carouselSlika1.png";
-import carousel2 from "../../../slike/CarouselSlika2.png";
+import carousel1 from "../../../slike/Staro_Bežanijsko_groblje.jpg";
+import carousel2 from "../../../slike/bezanijaGroblje1.png";
 import carousel3 from "../../../slike/3.jpg";
 import { CarouselIndicator } from "./CarouselIndicator";
 import { CarouselSlide } from "./CarouselSlide";
@@ -12,7 +12,8 @@ export const Carousel: React.FC = () => {
     <div>
       <div
         id="carouselExampleDark"
-        className="carousel carousel-dark slide custom-carousel">
+        className="carousel carousel-dark slide custom-carousel"
+      >
         <div className="carousel-indicators">
           <CarouselIndicator index={0} isActive={true} />
           <CarouselIndicator index={1} isActive={false} />

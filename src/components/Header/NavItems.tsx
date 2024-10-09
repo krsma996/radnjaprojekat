@@ -6,11 +6,10 @@ export const NavItems: React.FC<{
 }> = ({ currentActive, setActiveLink }) => {
   const navLinks = [
     { name: "Početna", path: "/" },
-    { name: "O Nama", path: "/Onama" },
+    { name: "O Nama - Usluge", path: "/Onama" },
     { name: "Spomenici", path: "/Spomenici" },
     { name: "Ostalo", path: "/Ostalo" },
     { name: "Cene", path: "/Cene" },
-    { name: "Usluge", path: "/Usluge" },
     { name: "Kontakt", path: "/Kontakt" },
   ];
 

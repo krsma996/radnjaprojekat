@@ -63,10 +63,10 @@ export const Footer: React.FC<{}> = () => {
                 Radno vreme: 8.00 - 16.00 <br />
                 Adresa: Bežanijska kosa 2b <br />
                 Email: zoranmira2000@yahoo.com
-                <h6 className="mt-3">
-                  Nalazimo se na samom ulasku u Bežanijsko groblje
-                </h6>
               </p>
+              <h6 className="mt-3">
+                Nalazimo se na samom ulasku u Bežanijsko groblje
+              </h6>
             </div>
           </div>
         </div>
