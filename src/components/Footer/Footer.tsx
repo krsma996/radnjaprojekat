@@ -24,6 +24,11 @@ export const Footer: React.FC<{}> = () => {
               <h3>KATEGORIJE</h3>
               <ul className="list-unstyled mt-3">
                 <li>
+                  <li>
+                    <a href="/" className="footer-category-links">
+                      <i className="bi bi-arrow-right me-2" /> Početna
+                    </a>
+                  </li>
                   <a href="/" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" />O Nama
                   </a>
@@ -41,11 +46,6 @@ export const Footer: React.FC<{}> = () => {
                 <li>
                   <a href="/" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" /> Cene
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="footer-category-links">
-                    <i className="bi bi-arrow-right me-2" /> Usluge
                   </a>
                 </li>
                 <li>
