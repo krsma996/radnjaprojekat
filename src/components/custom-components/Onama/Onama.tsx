@@ -19,7 +19,7 @@ export const Onama: React.FC = () => {
             Kvalitet naše izrade potvrđuju brojne preporuke zadovoljnih
             klijenata. <br />
             Nudimo širok spektar usluga, uključujući:
-            <ul className="list-styled">
+            <ul className="list-styled mt-3">
               <li>Izradu nadgrobnih spomenika po želji klijenata</li>
               <li>Graviranje slova, slika i drugih detalja na kamenu</li>
               <li>Specijalne zahteve u izradi spomenika</li>
@@ -31,7 +31,9 @@ export const Onama: React.FC = () => {
               <li>Kvalitet potkovan iskustvom</li>
               <li>Povoljne Cene</li>
             </ul>
-            Dodatna oprema koju nudimo jeste: <br />
+            <p className="p-onama mt-5 text-align-center">
+              Dodatna oprema koju nudimo uključuje:
+            </p>
             <ul className="list-styled">
               <li>Slova</li>
               <li>Slike</li>
@@ -40,10 +42,20 @@ export const Onama: React.FC = () => {
               <li>Vaze za cveće</li>
               <li>Cveće u staklu</li>
             </ul>
-            Cene nadgrobnih spomenika prilagođavamo materijalu, modelu i
-            kubikaži kamena, kako bismo osigurali najbolje rešenje za svaki
-            budžet. Za sve dodatne informacije i dogovore, stojimo vam na
-            raspolaganju. <br />
+            <p className="p-onama mt-3 text-align-center">
+              Cene nadgrobnih spomenika prilagođavamo materijalu, modelu i
+              kubikaži kamena, kako bismo osigurali najbolje rešenje za svaki
+              budžet. <br />
+              Za više informacija i dogovore, stojimo vam na raspolaganju.
+            </p>
+            <p className="p-onama  text-align-center">
+              Takođe, nudimo izradu kuhinja, kupatila, podova, stepenica i
+              terasa od najkvalitetnijeg granita i mermera. <br />
+              Naš tim za projektovanje i montažu garantuje vrhunski kvalitet i
+              trajnost,
+              <br />a naši proizvodi od prirodnog dekorativnog kamena
+              oplemenjuju svaki prostor.
+            </p>
             <span>
               <strong>
                 Kamenorezac Kosta – pouzdan partner za sve vaše potrebe!
