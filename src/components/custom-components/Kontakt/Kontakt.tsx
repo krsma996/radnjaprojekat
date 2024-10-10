@@ -77,6 +77,13 @@ export const Kontakt: React.FC = () => {
               className="kontakt-form-input"
             />
             <br />
+            <textarea
+              placeholder="Unesite tekst ovde"
+              required
+              className="kontakt-form-textarea"
+              rows={5}
+            />
+            <br />
             <button type="submit" className="kontakt-form-button">
               Pošalji
             </button>
