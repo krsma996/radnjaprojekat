@@ -39,6 +39,7 @@ export const MainGrid: React.FC = () => {
                 />
               </ul>
             }
+            link="/Spomenici"
           />
 
           <GridItem
@@ -59,6 +60,7 @@ export const MainGrid: React.FC = () => {
                 kvalitetne opcije za svaku potrebu i želju.
               </p>
             }
+            link="/Cene"
           />
 
           <GridItem
@@ -88,6 +90,7 @@ export const MainGrid: React.FC = () => {
                 />
               </ul>
             }
+            link="/Ostalo"
           />
         </div>
       </div>

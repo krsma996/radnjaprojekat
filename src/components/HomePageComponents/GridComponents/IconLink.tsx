@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface IconLinkProps {
   href: string;
@@ -7,9 +8,9 @@ interface IconLinkProps {
 export const IconLink: React.FC<IconLinkProps> = ({ href }) => {
   return (
     <i className="bi bi-arrow-right">
-      <a href={href} className="arrow-link">
+      <Link to={href} className="arrow-link">
         Pročitaj više
-      </a>
+      </Link>
     </i>
   );
 };

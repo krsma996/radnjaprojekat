@@ -1,0 +1,12 @@
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.foopter-paragraf {
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 0;
+}

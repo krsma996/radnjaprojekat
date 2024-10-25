@@ -9,7 +9,7 @@ export const Header: React.FC<{}> = () => {
       <a className="navbar-brand" href="/home">
         <img src={logoRadnja} alt="Moja Firma" />
       </a>
-      <span className="logo-text-img">Kamenorezac Kosta</span>
+      <span className="logo-text-img">Kamenorezac Kosta - Bežanijska Kosa</span>
       <button
         className="navbar-toggler"
         type="button"
@@ -17,7 +17,8 @@ export const Header: React.FC<{}> = () => {
         data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown"
         aria-expanded="false"
-        aria-label="Toggle navigation">
+        aria-label="Toggle navigation"
+      >
         <span className="navbar-toggler-icon"></span>
       </button>
       <Navbar />

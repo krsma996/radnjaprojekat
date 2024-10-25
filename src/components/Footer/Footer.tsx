@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom";
+import "./footer.css";
+
 /* eslint-disable @typescript-eslint/no-empty-object-type */
 export const Footer: React.FC<{}> = () => {
   return (
@@ -24,32 +27,34 @@ export const Footer: React.FC<{}> = () => {
               <h3>KATEGORIJE</h3>
               <ul className="list-unstyled mt-3">
                 <li>
-                  <a href="/" className="footer-category-links">
+                  <Link to="/" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" /> Početna
-                  </a>
+                  </Link>
                 </li>
-                <a href="/" className="footer-category-links">
-                  <i className="bi bi-arrow-right me-2" />O Nama
-                </a>
                 <li>
-                  <a href="/" className="footer-category-links">
+                  <Link to="/Onama" className="footer-category-links">
+                    <i className="bi bi-arrow-right me-2" /> O Nama
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/Spomenici" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" /> Spomenici
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/" className="footer-category-links">
+                  <Link to="/Ostalo" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" /> Ostalo
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/" className="footer-category-links">
+                  <Link to="/Cene" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" /> Cene
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="/" className="footer-category-links">
+                  <Link to="/Kontakt" className="footer-category-links">
                     <i className="bi bi-arrow-right me-2" /> Kontakt
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -57,10 +62,10 @@ export const Footer: React.FC<{}> = () => {
               <h3>KONTAKT</h3>
               <p className="mt-4">
                 Možete nas kontaktirati svakim danom <br />
-                Telefon: 060 - 318 - 97 - 64 <br />
+                Telefon: 060 - 313 - 441 - 64 <br />
                 Radno vreme: 8.00 - 16.00 <br />
                 Adresa: Bežanijska kosa 2b <br />
-                Email: zoranmira2000@yahoo.com
+                Email: kosta.saveski@gmail.com
               </p>
               <h6 className="mt-3">
                 Nalazimo se na samom ulasku u Bežanijsko groblje
