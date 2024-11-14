@@ -9,21 +9,25 @@
 }
 
 /* Headings */
-.kontakt-h1, .kontakt-h3, .kontakt-h5 {
-  font-family: 'Roboto', sans-serif;
+.kontakt-h1,
+.kontakt-h3,
+.kontakt-h5 {
+  font-family: "Roboto", sans-serif;
   color: #2c3e50;
 }
 
 .kontakt-h1 {
   font-size: 2.5rem;
   font-weight: bold;
-  text-align: center;
+  text-align: center; /* Centriranje za h1 */
   margin-bottom: 20px;
 }
 
-.kontakt-h3, .kontakt-h5 {
+.kontakt-h3,
+.kontakt-h5 {
   font-size: 1.75rem;
   margin-bottom: 20px;
+  text-align: center; /* Centriranje za h3 */
 }
 
 .kontakt-p {

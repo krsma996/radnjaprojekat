@@ -8,7 +8,7 @@ export const Cene: React.FC = () => {
       <h1 className="cene-heading text-align-center">
         CENE PROSEČNOG NADGROBNOG SPOMENIKA
       </h1>
-      <p className="cene-carousel-text mt-2">
+      <p className="cene-carousel-text mt-2 text-align-center">
         - Kamenorezačka radnja Kosta nudi veliki izbor - nadgrobnih spomenika po
         - povoljnim i pristupačnim cenama
       </p>

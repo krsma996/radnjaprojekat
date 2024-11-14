@@ -1,8 +1,21 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import "./footer.css";
 
-/* eslint-disable @typescript-eslint/no-empty-object-type */
-export const Footer: React.FC<{}> = () => {
+export const Footer: React.FC<object> = () => {
+  const [selectedSection, setSelectedSection] = useState<string>("");
+
+  // Kada se promeni selectedSection, automatski skroluj na vrh stranice
+  useEffect(() => {
+    if (selectedSection) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [selectedSection]);
+
+  const handleLinkClick = (section: string) => {
+    setSelectedSection(section);
+  };
+
   return (
     <footer className="footer footer-body mt-2">
       <div className="footer-top">
@@ -27,32 +40,56 @@ export const Footer: React.FC<{}> = () => {
               <h3>KATEGORIJE</h3>
               <ul className="list-unstyled mt-3">
                 <li>
-                  <Link to="/" className="footer-category-links">
+                  <Link
+                    to="/"
+                    className="footer-category-links"
+                    onClick={() => handleLinkClick("Početna")}
+                  >
                     <i className="bi bi-arrow-right me-2" /> Početna
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Onama" className="footer-category-links">
+                  <Link
+                    to="/Onama"
+                    className="footer-category-links"
+                    onClick={() => handleLinkClick("O Nama")}
+                  >
                     <i className="bi bi-arrow-right me-2" /> O Nama
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Spomenici" className="footer-category-links">
+                  <Link
+                    to="/Spomenici"
+                    className="footer-category-links"
+                    onClick={() => handleLinkClick("Spomenici")}
+                  >
                     <i className="bi bi-arrow-right me-2" /> Spomenici
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Ostalo" className="footer-category-links">
+                  <Link
+                    to="/Ostalo"
+                    className="footer-category-links"
+                    onClick={() => handleLinkClick("Ostalo")}
+                  >
                     <i className="bi bi-arrow-right me-2" /> Ostalo
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Cene" className="footer-category-links">
+                  <Link
+                    to="/Cene"
+                    className="footer-category-links"
+                    onClick={() => handleLinkClick("Cene")}
+                  >
                     <i className="bi bi-arrow-right me-2" /> Cene
                   </Link>
                 </li>
                 <li>
-                  <Link to="/Kontakt" className="footer-category-links">
+                  <Link
+                    to="/Kontakt"
+                    className="footer-category-links"
+                    onClick={() => handleLinkClick("Kontakt")}
+                  >
                     <i className="bi bi-arrow-right me-2" /> Kontakt
                   </Link>
                 </li>

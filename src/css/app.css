@@ -171,6 +171,10 @@ h1 {
   letter-spacing: 0px;
   text-transform: none;
 }
+.arrow-link.active {
+  font-weight: bold;
+  color: #007bff; /* ili neka druga boja */
+}
 
 .arrow-link {
   display: inline-flex;
